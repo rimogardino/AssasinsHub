@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AssasinsHub</string>
+    <string name="btext_confirm_kill">Confirm kill!</string>
+    <string name="tv_title_assasin_s_hub">Assasin\'s hub!!</string>
+    <string name="b_leaps_of_faith">Nearby leaps of faith</string>
+    <string name="b_call_maker">Call a friend</string>
+    <string name="b_bored">I\'m bored!!</string>
+    <string name="title_activity_confirm_kill">ConfirmKillActivity</string>
+    <string name="tv_call_title">If there\'s something strange in you neighborhood\nWho you gonna call?</string>
+    <string name="btext_friend1">Steve</string>
+    <string name="btext_friend2">Ryan</string>
+    <string name="btext_friend3">Mike</string>
+    <string name="btext_friend4">Daniel</string>
+</resources>

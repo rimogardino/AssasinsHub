@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/tv_hubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_title_assasin_s_hub"
+        android:textSize="24sp"
+        android:padding="4dp"
+        android:textAlignment="center"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+    <Button
+        android:id="@+id/b_confirm_kill"
+        android:text="@string/btext_confirm_kill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="confirmKill"
+        />
+
+    <Button
+        android:id="@+id/b_leap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_leaps_of_faith"
+        android:onClick="leapOfFaith"
+        />
+
+    <Button
+        android:id="@+id/b_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_call_maker"
+        android:onClick="callFriend"
+        />
+
+    <Button
+        android:id="@+id/b_bored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/b_bored"
+        android:onClick="imBored"
+        />
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/tv_callCenterTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_call_title"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    tools:ignore="UseCompoundDrawables"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:id="@+id/ll_call_friend1"
+    android:onClick="makeAcall"
+    style="@style/Base.Widget.AppCompat.Button"
+    >
+
+    <ImageView
+        android:id="@+id/iv_call_friend1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_ass_logo_foreground"
+        android:layout_marginLeft="45dp"
+        />
+    <TextView
+        android:id="@+id/tv_call_friend1"
+        android:text="@string/btext_friend1"
+        android:textAlignment="textStart"
+        android:gravity="center_vertical"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/ll_call_friend2"
+        style="@style/Base.Widget.AppCompat.Button"
+        android:onClick="makeAcall"
+        >
+
+        <ImageView
+            android:id="@+id/iv_call_friend2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_ass_logo_foreground"
+            android:layout_marginLeft="45dp"
+            />
+        <TextView
+            android:id="@+id/tv_call_friend2"
+            android:text="@string/btext_friend2"
+            android:textAlignment="textStart"
+            android:gravity="center_vertical"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/ll_call_friend3"
+        style="@style/Base.Widget.AppCompat.Button"
+        android:onClick="makeAcall"
+        >
+
+        <ImageView
+            android:id="@+id/iv_call_friend3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_ass_logo_foreground"
+            android:layout_marginLeft="45dp"
+            />
+        <TextView
+            android:id="@+id/tv_call_friend3"
+            android:text="@string/btext_friend3"
+            android:textAlignment="textStart"
+            android:gravity="center_vertical"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:id="@+id/ll_call_friend4"
+        style="@style/Base.Widget.AppCompat.Button"
+        android:onClick="makeAcall"
+        >
+
+        <ImageView
+            android:id="@+id/iv_call_friend4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_ass_logo_foreground"
+            android:layout_marginLeft="45dp"
+            />
+        <TextView
+            android:id="@+id/tv_call_friend4"
+            android:text="@string/btext_friend4"
+            android:textAlignment="textStart"
+            android:gravity="center_vertical"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+</LinearLayout>
