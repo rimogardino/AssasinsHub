@@ -50,4 +50,6 @@ public class CallFriend extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+
 }
