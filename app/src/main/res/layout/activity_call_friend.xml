@@ -14,6 +14,7 @@
         android:padding="4dp"
         android:textStyle="bold"
         android:textAlignment="center"
+
         />
     <Space
         android:layout_width="match_parent"
@@ -40,7 +41,7 @@
         android:id="@+id/tv_call_friend1"
         android:text="@string/btext_friend1"
         android:textAlignment="textStart"
-        android:gravity="center_vertical"
+        android:gravity="start"
         android:textSize="34sp"
         android:textStyle="bold"
         android:layout_width="fill_parent"
@@ -71,7 +72,7 @@
             android:id="@+id/tv_call_friend2"
             android:text="@string/btext_friend2"
             android:textAlignment="textStart"
-            android:gravity="center_vertical"
+            android:gravity="start"
             android:textSize="34sp"
             android:textStyle="bold"
             android:layout_width="fill_parent"
@@ -101,7 +102,7 @@
             android:id="@+id/tv_call_friend3"
             android:text="@string/btext_friend3"
             android:textAlignment="textStart"
-            android:gravity="center_vertical"
+            android:gravity="start"
             android:textSize="34sp"
             android:textStyle="bold"
             android:layout_width="fill_parent"
@@ -131,7 +132,7 @@
             android:id="@+id/tv_call_friend4"
             android:text="@string/btext_friend4"
             android:textAlignment="textStart"
-            android:gravity="center_vertical"
+            android:gravity="start"
             android:textSize="34sp"
             android:textStyle="bold"
             android:layout_width="fill_parent"

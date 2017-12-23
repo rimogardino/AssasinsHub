@@ -11,4 +11,5 @@
     <string name="btext_friend2">Ryan</string>
     <string name="btext_friend3">Mike</string>
     <string name="btext_friend4">Daniel</string>
+    <string name="kill_confirmed">Kill Confirmed!</string>
 </resources>

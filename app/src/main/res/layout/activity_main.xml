@@ -12,6 +12,7 @@
         android:textSize="24sp"
         android:padding="4dp"
         android:textAlignment="center"
+        android:onClick="shrinker"
         />
     <Space
         android:layout_width="match_parent"
@@ -24,6 +25,9 @@
         android:layout_height="wrap_content"
         android:onClick="confirmKill"
         />
+
+    
+
 
     <Button
         android:id="@+id/b_leap"
@@ -47,5 +51,6 @@
         android:layout_height="wrap_content"
         android:text="@string/b_bored"
         android:onClick="imBored"
+        android:visibility="invisible"
         />
 </LinearLayout>
